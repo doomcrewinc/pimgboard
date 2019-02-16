@@ -3,6 +3,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
 
+gem 'acts_as_votable', '~> 0.11.1'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'paperclip', '~> 6.0'
+gem 'jquery-rails'
+gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
