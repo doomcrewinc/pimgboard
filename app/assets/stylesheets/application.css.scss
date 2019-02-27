@@ -17,16 +17,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  background: #E9E9E9;
+  background: #494949;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
 nav {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+  background: #1e1e1e;
   .navbar-brand {
     a {
-      color: #BD1E23;
+      color: #d24a61;
       font-weight: bold;
       &:hover {
         text-decoration: none;
@@ -52,12 +53,12 @@ nav {
       margin: 0;
       padding: 25px 10px;
       a {
-        color: #474747;
+        color: #494949;
       }
     }
     .user {
       font-size: 12px;
-      border-top: 1px solid #EAEAEA;
+      border-top: 1px solid #424242;
       padding: 15px;
       margin: 0;
     }
