@@ -9,7 +9,7 @@ gem 'paperclip', '~> 6.0'
 gem 'jquery-rails'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'haml', '~> 5.0', '>= 5.0.4'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1', '>= 3.4.1'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
